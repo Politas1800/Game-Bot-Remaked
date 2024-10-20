@@ -7,6 +7,9 @@ from time import sleep
 from game_control import *
 from predict import predict
 from keras.models import model_from_json
+from dotenv import load_dotenv
+
+load_dotenv('variables/.env')
 
 # Mock function to replace ImageGrab
 def mock_image_grab():

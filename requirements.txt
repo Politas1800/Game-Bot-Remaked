@@ -4,3 +4,4 @@ tensorflow
 Pillow
 scikit-learn
 matplotlib
+python-dotenv
